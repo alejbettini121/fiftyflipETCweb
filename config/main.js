@@ -16,7 +16,7 @@ module.exports = {
       ropsten: process.env.DB_CONNECTION || 'mongodb://localhost:27017/etccoinflipdb_ropsten',
       mainnet: process.env.DB_CONNECTION || 'mongodb://localhost:27017/etccoinflipdb'
     },
-    app_contract_address: process.env.CONTRACT || '0x7b6f11678fac03ba02c5cb7cdd85756504435b3c',
+    app_contract_address: process.env.CONTRACT || '0xb11a6cec3d040e964ecd2c23180b271091f72bca',
     domain: process.env.API_DOMAIN || 'http://localhost:3030',
     last_endpoint_version: '0.0.1',
     version: 'v1',
