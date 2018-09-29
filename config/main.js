@@ -7,7 +7,7 @@ module.exports = {
     rpc_endpoint: {
       test: 'http://localhost:8545',
       ropsten: process.env.RPC_ENDPOINT || 'https://ropsten.infura.io/v3/18dfe3cb327e49aab39aa7fe0550337e',
-      mainnet: process.env.RPC_ENDPOINT || 'https://ethereumclassic.network' //'http://localhost:8545'//'https://ethereumclassic.network'
+      mainnet: process.env.RPC_ENDPOINT || 'http://localhost:8545' //'http://localhost:8545'//'https://ethereumclassic.network'
     },
     contract_included_block: 6496623,
     parsing_active: true,
